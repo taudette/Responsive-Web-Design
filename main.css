@@ -1,0 +1,109 @@
+body{
+	font-family:'Shadows Into Light', "Lato", sans-serif;
+	padding: 15px;
+	text-align: center;
+	max-width: 960px;
+	background-color: #EFECCA;
+	color:#002F2F;
+	margin: auto;
+	font-size: 120%;
+}
+
+p{
+	font-family: "Lato", sans-serif;
+}
+
+header{
+	font-size: 3em;
+	padding-bottom: 1em;
+	text-align: -webkit-center;
+	color: #046380;
+}
+
+h1{
+	color: #046699;
+}
+
+nav{
+	display: -webkit-box;
+	font-size: 1.4em;
+
+}
+
+.top li{
+	
+	text-align: -webkit-center;
+
+	
+}
+
+.list, a{
+  text-decoration: none;
+  list-style-type: none;
+  padding: ;
+  text-align: -webkit-center;
+
+}
+
+
+.small{
+	display: -webkit-inline-box;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 2px;
+	list-style-type: image;
+}
+
+.small img{
+	padding: 8px;
+	
+}
+
+a{
+	text-decoration: none;
+    list-style-type: none;
+    color: #272F32;
+}
+
+a:hover{
+	color: #FF3D2E;
+}
+
+nav {
+display: table;
+width: 100%;
+border-collapse: collapse;
+border: none;
+
+}
+nav ul {
+display: table-row;
+}
+nav li {
+display: table-cell;
+margin: 0;
+padding-bottom: 2em;
+color: grey;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+         max-width:auto;
+         padding:15px;
+    }
+    .big {
+    	width: 100%;
+
+    }
+@media screen and (max-width: 500px) {
+	.small, nav li {
+		display: block;
+		
+
+	}
+}
+@media screen and (max-width: 500px) {
+	 nav li, header{
+		padding-bottom: 0em;
+		padding-top: 0em;
+	}
