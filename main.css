@@ -30,17 +30,11 @@ nav{
 
 }
 
-.top li{
-	
-	text-align: center;
 
-	
-}
-
-.list, a{
+.top, a{
   text-decoration: none;
   list-style-type: none;
-  padding: ;
+  color:red;
   text-align: center;
 
 }
@@ -59,6 +53,7 @@ nav{
 	
 }
 
+
 a{
 	text-decoration: none;
     list-style-type: none;
@@ -67,6 +62,11 @@ a{
 
 a:hover{
 	color: #FF3D2E;
+	transition: -webkit-transform 1.5s;
+	-webkit-transform:perspective(1em) translateZ(.4em);
+
+	
+
 }
 
 nav {
