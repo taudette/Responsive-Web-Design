@@ -16,7 +16,7 @@ p{
 header{
 	font-size: 3em;
 	padding-bottom: 1em;
-	text-align: -webkit-center;
+	text-align: center;
 	color: #046380;
 }
 
@@ -25,14 +25,14 @@ h1{
 }
 
 nav{
-	display: -webkit-box;
+	display: box;
 	font-size: 1.4em;
 
 }
 
 .top li{
 	
-	text-align: -webkit-center;
+	text-align: center;
 
 	
 }
@@ -41,7 +41,7 @@ nav{
   text-decoration: none;
   list-style-type: none;
   padding: ;
-  text-align: -webkit-center;
+  text-align: center;
 
 }
 
